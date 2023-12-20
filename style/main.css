@@ -1,0 +1,55 @@
+h1{
+    text-align: center;   
+}
+
+#schools{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#schools div{
+    margin: 5vw;
+    width: 15vw;
+    height: 15vh;
+    font-size: 5vw;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 15vh;
+    color: maroon;
+    background-color: #C4B454;
+}
+
+#plusBtn{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    border-radius: 100vw;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 15px;
+}
+
+.noBtnSelect{
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.noSelect{
+    pointer-events: none;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}

@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+}
+
+#info{
+    width: 25vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgray;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#back{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
